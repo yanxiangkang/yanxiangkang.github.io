@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width:50px;
+				height: 50px;
+				background-color: darkgrey;
+				margin: 10px;
+				position: absolute;
+				top: 0;
+				/*background-image: url(img/3.jpg);*/
+				background-repeat: no-repeat;
+				background-size: 2000%;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!--<div style="left:0px;"></div>-->
+		<!--<div style="left:50px;top:50px;background-position: -50px -50px;"></div>-->
+		<!--<div></div>-->
+		<!--<script>
+		var str = '';
+		for(var i=0;i<10;i++){
+			str += '<div></div>';
+		}
+			document.body.innerHTML = str;
+		</script>-->
+		<script>
+//			document.body.innerHTML = '<div></div>';
+			var str = '';
+			var num = -1;
+			var divs = document.getElementsByTagName('div');
+			for(var i=0;i<100;i++){
+//				str += '<div style="left:'+ i*60+'px;"></div>';
+//				str += '<div style="left:'+i*60+'px;top:'+i*60+'px"></div>';
+				if(i%10==0){
+					num++;
+				}
+				str += '<div style="left:'+i%10*60+'px;top:'+num*60+'px;background-position: '+-i%10*60+'px '+-num*60+'px;"></div>';
+			};
+			document.body.innerHTML = str;
+			
+			for(var i=0;i<100;i++){
+				divs[i].onmouseover = function(){
+					this.style.backgroundImage = 'url(img/3.jpg)';
+				}
+			};
+		</script>
+	</body>
+</html>
