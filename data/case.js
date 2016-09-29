@@ -24,14 +24,14 @@ var casees = [
 					publishTime:"2011-11-16 22:08",
 					caseThumbnail:"images/case/1/1-JS热身课程-课后练习.gif",
 					caseDescription:"属性操作、图片切换、短信属性操作<br>图片切换、短信",
-					caseWebsite:"http://2013.miaov.com/miaov_demo/diagnosite/"
+					caseWebsite:"yanxiangkang.github.io/Jsshuxing/div"
 				},
 				{
 					caseTitle:"模拟手机短信发送",
 					publishTime:"2011-11-16 22:08",
 					caseThumbnail:"images/case/1/2-模拟手机短信发送.gif",
 					caseDescription:"描述：这是我完成的一个小案例，综合涉及到的知识点是判断、字符串拼接，以及布局方面的小技巧，比如提交留言后，A用户在左，B用户在右"
-					,caseWebsite:"http:www.miaov.com"
+					,caseWebsite:"yanxiangkang.github.io/Jsshuxing/phone"
 				}
 			]
 		},
