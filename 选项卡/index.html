@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#box{
+				width: 800px;
+				height: 400px;
+				border: 5px solid #C0C0C0;
+			}
+			ul{
+				margin: 0px;
+				padding: 0px;
+			}
+			li{
+				list-style: none;
+				cursor: pointer;
+				
+			}
+			#box>ul{
+				width: 100px;
+				height: 100%;
+				float: left;
+			}
+			#box>ul li{
+				background: black;
+				color: white;
+				height: 99px;
+				line-height: 99px;
+				text-align: center;
+				border-bottom: 1px solid #F2F2F2;
+			}
+			#box>ul .active{
+				background: red;
+				color: black;
+			}
+			#box div{
+				width: 700px;
+				height: 100%;
+				float: left;
+				display: none;
+				position: relative;
+			}
+			#box img{
+				width: 100%;
+				height: 100%;
+			}
+			#box div ul{
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+				width: 700px;
+			}
+			#box div li{
+				/*width: 175px;*/
+				height: 30px;
+				line-height: 30px;
+				background: #000000;
+				opacity: .7;
+				color: white;
+				text-align: center;
+				float: left;
+				border-right: 1px solid #C0C0C0;
+				margin-right: -1px;
+			}
+			#box .show{
+				display: block;
+			}
+			#box div .active{
+				background: pink;
+				color: floralwhite;
+			}
+			/*#box .active{
+				background: red;
+			}
+			#box .show{
+				display: block;
+			}*/
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<ul>
+				<li class="active">暖色调</li>
+				<li>金色夕阳</li>
+				<li>灰色格调</li>
+				<li>baby</li>
+			</ul>
+			<div class="show">
+				<img src="images/img1.gif" />
+				<ul>
+					<li class="active">暖色键盘</li>
+					<li>惬意时光</li>
+					<li>午后</li>
+					<li>一杯苦咖啡</li>
+				</ul>
+			</div>
+			<div>
+				<img src="images/img5.gif"/>
+				<ul>
+					<li>街边夕阳</li>
+					<li>金色稻草</li>
+				</ul>
+			</div>
+			<div>
+				<img src="images/img7.gif" />
+				<ul>
+					<li>灰色通讯</li>
+					<li>咖啡'配'饼干</li>
+					<li>孤单键盘</li>
+					<li>枯树</li>
+				</ul>
+			</div>
+			<div>
+				<img src="images/img11.gif"/>
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>/
+			</div>
+		</div>
+		<script type="text/javascript">
+			var arr=[
+			[ "暖色调", ["暖色键盘","惬意时光","午后","一杯苦咖啡"],["images/img1.gif","images/img2.gif","images/img3.gif","images/img4.gif"]],
+
+			["金色夕阳",["街边夕阳","金色稻草"],["images/img5.gif","images/img6.gif"]],
+
+			["灰色格调",["灰色通讯","咖啡'配'饼干","孤单键盘","枯树"],["images/img7.gif","images/img8.gif","images/img9.gif","images/img10.gif"]],
+
+			["baby",["baby素材一","baby素材二"],["images/img11.gif","images/img12.gif"]]
+			];
+//			生成
+			var oBox=document.getElementById('box');
+			var str = '<ul>';
+			var str1 = '';
+			for(var i=0;i<arr.length;i++){
+				str = str + '<li>'+arr[i][0]+'</li>';
+				//1.生成左面的li
+//				alert(str);
+				str1 = str1 + '<div><img src="'+arr[i][2][0]+'"><ul>';
+				//2.再生成div里的图片
+				//alert(str1);
+				for(var j=0;j<arr[i][1].length;j++){
+//					alert(str1);
+					str1 = str1 + '<li style="width:'+(700/arr[i][1].length)+'px;">'+arr[i][1][j]+'</li>';
+				//3.最后生成底部ul里的li
+				}
+				//console.log(str);
+				console.log(str1);
+				str1+='</ul></div>';
+			}
+			str+='</ul>'+str1;
+			str = str + '</ul>'+str1;
+			oBox.innerHTML = str;
+			
+			var lis = oBox.getElementsByTagName('ul')[0].getElementsByTagName('li');
+			var divs = oBox.getElementsByTagName('div');
+			lis[0].className = 'active';
+			divs[0].style.display = 'block';
+//			注释:box下的ul	
+				for(var i=0;i<lis.length;i++){
+					lis[i].index = i;
+					lis[i].onclick = function(){
+						for(var i=0;i<lis.length;i++){
+							lis[i].className = '';
+							divs[i].style.display ='none';
+						}
+						this.className = 'active';
+						divs[this.index].style.display = 'block';
+					};
+				}
+			function fn(n){
+				//第六步:传参 带入n
+				var divLis = divs[n].getElementsByTagName('li');
+				//第一步
+				var divimg = divs[n].getElementsByTagName('img');
+				//第三步
+				divLis[0].className = 'active';
+				divimg[0].style.display = 'block';
+				//第五步:初始化
+				//console.log(divLis);
+				//console.log(divimg);
+					for(var j=0;j<divLis.length;j++){
+						divLis[j].index = j;
+						divLis[j].onclick = function(){
+							//第二步
+							for(var j=0;j<divLis.length;j++){
+								divLis[j].className = '';
+							}
+						this.className = 'active';
+						divimg[0].src = arr[n][2][this.index];
+						};
+						//第四步
+					}
+			}
+			for(var i=0;i<4;i++){
+				fn(i);
+				//第七步:循环  实参
+			}
+		</script>
+	</body>
+</html>
