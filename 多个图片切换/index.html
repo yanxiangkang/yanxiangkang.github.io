@@ -1,0 +1,124 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+	#box{
+		width: 875px;
+		height: 553px;
+		background: url(img/bg.png) no-repeat;
+		margin: 0 auto;
+		position: relative;
+	}
+	img{
+		position: absolute;
+		top: 114px;
+		height: 245px;
+		cursor: pointer;
+	}
+	#box img:nth-of-type(1){
+		width:448px;
+		left: 49px;
+	}
+	#box img:nth-of-type(2){
+		width: 248px;
+		left:559px;
+	}
+	i{
+		position: absolute;
+		bottom: 143px;
+		font-weight: bold;
+	}
+	#box i:nth-of-type(1){
+		left: 49px;
+	}
+	#box i:nth-of-type(2){
+		right: 297px;
+	}
+	a{
+		position: absolute;
+		top:54px;
+		width: 60px;
+		height: 20px;
+	}
+	#box a:nth-of-type(1){
+		left:23px;
+	}
+	#box a:nth-of-type(2){
+		left: 100px;
+	}
+	p{
+		height: 20px;
+		width: 200px;
+		position: absolute;
+		bottom: 150px;
+		text-align: center;
+	}
+	#box p:nth-of-type(1){
+		left: 136px;
+	}	
+	#box p:nth-of-type(2){
+		width: 130px;
+		left: 634px;
+	}
+</style>
+</head>
+
+<body>
+	<div id="box">
+		<a href="javascript:;" class="left"></a>
+		<a href="javascript:;" class="right"></a>
+		<img src="" alt="" class="left"/>
+		<img src="" alt="" class="right"/>
+		<i class="left">lkdfkf</i>
+		<i class="right">dffd</i>
+		<p class="left">ff</p>
+		<p class="right">sdd</p>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	var as = document.getElementsByTagName('a');
+	var imgs = document.getElementsByTagName('img');
+	var is = document.getElementsByTagName('i');
+	var ps = document.getElementsByTagName('p');
+	//把每组图片数据存在img的自定义属性上。
+	imgs[0].imgs = ['1.jpg','4.jpg','2.jpg','3.jpg','0.jpg'];
+	imgs[1].imgs = ['2.jpg','3.jpg','0.jpg'];
+	//初始化图片。
+	imgs[0].src = 'img/'+imgs[0].imgs[0];
+	imgs[1].src = 'img/'+imgs[1].imgs[0];
+
+	// var num1 = 0;
+	// var num2 = 0;
+	//给img加点击事件，点击的时候对自己的自定义属性进行自增，自增之后判断是否超出数组长度，然后进行src的修改。
+	for(var i=0;i<imgs.length;i++){
+		imgs[i].cur = 0;
+		imgs[i].onclick = function(){
+			// num1++;
+			// num2++;
+			this.cur++;
+			if(this.cur>this.imgs.length-1){
+				this.cur = 0;
+			}
+			this.src = 'img/'+this.imgs[this.cur];
+		};
+	}
+	//切换下一组按钮绑定点击事件，在点击的时候让每个img身上的自定义属性自增，然后判断是否超出数组长度，然后切换src。
+	as[1].onclick = function(){
+		// imgs[0].cur++;
+		// imgs[1].cur++;
+		// if(this.cur>this.imgs.length-1){
+		// 	this.cur = 0;
+		// }
+		for(var i=0;i<imgs.length;i++){
+			imgs[i].cur++;
+			if(imgs[i].cur>imgs[i].imgs.length-1){
+				imgs[i].cur = 0;
+			}
+			imgs[i].src = 'img/'+imgs[i].imgs[imgs[i].cur];
+		}
+	};
+
+</script>
