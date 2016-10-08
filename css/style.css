@@ -356,6 +356,7 @@ body {
 .timeAxis {
 	width: 100%;
 	padding-bottom: 50px;
+	display: none;
 }
 .timecon {
 	width: 1000px;
@@ -437,6 +438,7 @@ body {
 .case{
 	overflow: hidden;
 	background-color: #eef2f5;
+	display: none;
 }
 .casecon{width: 1000px;
 		margin:0 auto;
