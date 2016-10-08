@@ -1,0 +1,569 @@
+body,form,h1{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+	width: 100%;
+	height: 100%;
+}
+input{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 13.825rem;
+	height: 1.25rem;
+	margin-right: 0.325rem;
+	margin-top: 0.3rem;
+	text-indent: 5.5rem;
+	font-size: 0.6rem;
+	color: #FFFFFF;
+	background-color: #b52500;
+	border-radius: 0.125rem;
+}
+form{
+	position: relative;
+}
+form i{
+	background: url(../img/未标题-2.jpg) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.55rem;
+	left: 4.475rem;
+	width: 0.675rem;
+	height: 0.675rem;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearFix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.header{
+	width: 16rem;
+	height: 1.85rem;
+	background-color: #fe5400;
+}
+h1{
+	width: 1.35rem;
+	height: 1.25rem;
+	background: url(../img/未标题-1.jpg) no-repeat;
+	background-size: 100%;
+	margin-left: 0.225rem;
+	margin-top: 0.3rem;
+}
+.firstScreen img{
+	width: 16rem;
+	height: 5rem;
+}
+.list1 img{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.list2 img{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.list3 img{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.list4 img{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.list5 img{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.list6 img{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.list7 img{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.list8 img{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.floor1-left3 img{
+	width: 6.1rem;
+	height: 5.55rem;
+}
+.floor1-right-top img{
+	width: 9.575rem;
+	height: 3.125rem;
+}
+.floor1-right-bottom1 img{
+	width: 4.75rem;
+	height: 4.55rem;
+}
+.floor1-right-bottom2 img{
+	width: 4.8rem;
+	height: 4.55rem;
+}
+.floor2-tpp img{
+	width: 16rem;
+	height: 1.55rem;
+}
+.floor2-left1 img{
+	width: 6.475rem;
+	height: 5.075rem;
+} 
+.floor2-left2 img{
+	width: 6.425rem;
+	height: 5.075rem;
+} 
+.floor2-right1 img{
+	width: 3.175rem;
+	height: 5.075rem;
+} 
+.floor2-right2 img{
+	width: 3.2rem;
+	height: 5.05rem;
+} 
+.floor2-right3 img{
+	width: 3.175rem;
+	height: 5.075rem;
+} 
+.floor2-right4 img{
+	width: 3.2rem;
+	height: 5.05rem;
+} 
+.floor2-right5 img{
+	width: 3.2225rem;
+	height: 5.075rem;
+} 
+.floor2-right6 img{
+	width: 3.175rem;
+	height: 5.05rem;
+} 
+.floor3-top img{
+	width: 16rem;
+	height: 1.55rem;
+}
+.floor3-top-top1 img{
+	width: 9.575rem;
+	height: 4.2rem;
+}
+.floor3-top-top2 img{
+	width: 6.425rem;
+	height: 4.2rem;
+}
+.floor3-top-bottom1 img{
+	width: 3.2rem;
+	height: 5rem;
+}
+.floor3-top-bottom2 img{
+	width: 3.2rem;
+	height: 5rem;
+}
+.floor3-top-bottom3 img{
+	width: 3.2rem;
+	height: 5rem;
+}
+.floor3-top-bottom4 img{
+	width: 3.2rem;
+	height: 5rem;
+}
+.floor3-top-bottom5 img{
+	width: 3.2rem;
+	height: 5rem;
+}
+.floor4-top img{
+	width: 16rem;
+	height: 1.525rem;
+} 
+.floor4-left1 img{
+	width: 6.475rem;
+	height: 5.025rem;
+} 
+.floor4-left2 img{
+	width: 6.475rem;
+	height: 5.1rem;
+} 
+.floor4-right1 img{
+	width: 3.2rem;
+	height: 5.025rem;
+} 
+.floor4-right2 img{
+	width: 3.2rem;
+	height: 5.025rem;
+}
+.floor4-right3 img{
+	width: 2.8rem;
+	height: 5.025rem;
+}
+.floor4-right4 img{
+	width: 3.2rem;
+	height: 5.025rem;
+} 
+.floor4-right5 img{
+	width: 3.2rem;
+	height: 5.025rem;
+} 
+.floor4-right6 img{
+	width: 3.2rem;
+	height: 5.025rem;
+}
+.floor5-pic1 img{
+	width: 16rem;
+	height: 3.2rem;
+}
+.floor5-pic2 img{
+	width: 16rem;
+	height: 1.5rem;
+} 
+.floor5-top1 img{
+	width: 8.075rem;
+	height: 6.15rem;	
+} 
+.floor5-top2 img{
+	width: 7.925rem;
+	height: 6.175rem;	
+} 
+.floor5-bottom1 img{
+	width: 4rem;
+	height: 4.65rem;	
+}  
+.floor5-bottom2 img{
+	width: 4rem;
+	height: 4.65rem;
+}
+.floor5-bottom3 img{
+	width: 4rem;
+	height: 4.65rem;
+}
+.floor5-bottom4 img{
+	width: 4rem;
+	height: 4.65rem;
+}
+.floor5-bottom5 img{
+	width: 4rem;
+	height: 4.65rem;
+}
+.floor5-bottom6 img{
+	width: 4rem;
+	height: 4.65rem;
+}
+.floor5-bottom7 img{
+	width: 4rem;
+	height: 4.65rem;
+}
+.floor5-bottom8 img{
+	width: 4rem;
+	height: 4.65rem;
+}
+.floor6-pic1 img{
+	width: 16rem;
+	height: 3rem;
+}
+.floor6-pic2 img{
+	width: 16rem;
+	height: 1.575rem;
+}
+.floor6-main{
+	width: 16rem;
+	height: 7.025rem;
+}
+.floor6-left img{
+	width: 8.2rem;
+	height: 7.85rem;
+}
+.floor6-right img{
+	width: 7.8rem;
+	height: 7.85rem;
+}
+.floor7-pic1 img{
+	width: 16rem;
+	height: 1.425rem;
+}
+.floor6-1 img{
+	width: 8.05rem;
+	height: 10.9rem;
+}
+.floor6-2 img{
+	width: 8.05rem;
+	height: 10.9rem;
+}
+.floor6-3 img{
+	width: 8.05rem;
+	height: 10.9rem;
+}
+.floor6-4 img{
+	width: 8.05rem;
+	height: 10.9rem;
+}
+.floor6-5 img{
+	width: 8.05rem;
+	height: 10.9rem;
+}
+.floor6-6 img{
+	width: 8.05rem;
+	height: 10.9rem;
+}
+.floor7-main-top{
+	width: 16rem;
+	height: 10.825rem;
+}
+.floor7-1 img{
+	width: 7.975rem;
+	height: 10.825rem;
+}
+.floor7-2 img{
+	width: 7.975rem;
+	height: 10.825rem;
+}
+.floor7-main-middle{
+	width: 16rem;
+	height: 10.825rem;
+}
+.floor7-3 img{
+	width: 7.975rem;
+	height: 10.825rem;
+}
+.floor7-4 img{
+	width: 7.975rem;
+	height: 10.825rem;
+}
+.floor7-main-bottom{
+	width: 16rem;
+	height: 10.825rem;
+}
+.floor7-5 img{
+	width: 7.975rem;
+	height: 10.825rem;
+}
+.floor7-6 img{
+	width: 7.975rem;
+	height: 10.825rem;
+}
+.footer{
+	width: 16rem;
+	height: 2.15rem;
+}
+.homepage img{
+	width: 3.2rem;
+	height: 2.15rem;
+}
+.logistics img{
+	width: 3.2rem;
+	height: 2.15rem;
+}
+.shopping-cart img{
+	width: 3.2rem;
+	height: 2.15rem;
+}
+.taobao img{
+	width: 3.2rem;
+	height: 2.15rem;
+}
+.more img{
+	width: 3.2rem;
+	height: 2.15rem;
+}
+img{
+	width: 3.2rem;
+	height: 5rem;
+}
+img{
+	width: 3.175rem;
+	height: 5.075rem;
+} 
+img{
+	width: 4.8rem;
+	height: 4.55rem;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 16rem;
+	height: 6.925rem;
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+	border-bottom: 0.025rem solid #e8e8e8;
+	/*background: darkblue;*/
+}
+li{
+	width: 2.375rem;
+	height: 2.65rem;
+	text-align: center;
+	margin-bottom: 0.6rem;
+	/*background: darkcyan;*/
+}
+li a{
+	width: 1.925rem;
+	height: 1.925rem;
+}
+.list1,.list2,.list3,.list5,.list6,.list7{
+	margin-right: 1.425rem;
+}
+.cat{
+	width: 2.375rem;
+	height: 1.325rem;
+	font-size: 0.55rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	margin-bottom: 0.6rem;
+}
+.cat a{
+	color: #707070;
+}
+.ad-pic{
+	width: 16rem;
+	height: 1.55rem;
+	line-height: 1.55rem;
+	padding-top: 0.375rem;
+	border-bottom: 0.5rem solid #eeeeee;
+	
+}
+.ad-pic span{
+	border: 0.025px solid #e7e7e7;
+}
+.ad-pic-left1{
+	margin-left: 0.5rem;
+}
+.ad-pic-left1 img{
+	width: 2.475rem;
+	height: 0.725rem;
+}
+.ad-pic-left2{
+	margin-left: 0.45rem;
+}
+.ad-pic-left2 img{
+	width: 1.65rem;
+	height: 0.8rem;
+}
+.ad-pic-right{
+	font-size: 0.7rem;
+	color: #373737;
+	margin-left: 0.625rem;
+	margin-right: 1.15rem;
+	line-height: 0.8rem;
+}
+.floor1{
+	width: 16rem;
+	height: 7.7rem;
+	margin-top: 0.375rem;
+}
+.floor1-left{
+	width: 6.4rem;
+	height: 7.7rem;
+	margin-left: 0.325rem;
+	border-right: 0.025rem solid #e8e8e8;
+	position: relative;
+}
+.floor1-left1{
+	width: 6.075rem;
+	height: 0.725rem;
+	line-height: 0.7rem;
+	
+	margin-top: 0.1rem;
+}
+.floor1-left1 i{
+	width: 0.7rem;
+	height: 0.7rem;
+	/*position: absolute;
+	left: 0.375rem;
+	top: 0.5rem;*/
+	background: url(../img/floor-1.jpg) no-repeat;
+	float: left;
+	background-size: 100%;
+	
+}
+.floor1-left1 a{
+	font-size: 0.65rem;
+	color: #fb1726;
+	margin-left: 0.15rem;
+	display: block;
+	float: left;
+}
+.floor1-left2{
+	width: 6.1rem;
+	height: 1rem;
+	line-height: 0.95rem;
+}
+.floor1-left2 a{
+	font-size: 0.45rem;
+	color: #7f7f7f;
+	line-height: 0.95rem;
+}
+.floor1-right{
+	width: 8.575rem;
+	height: 7.7rem;
+}
+.floor1-right-top{
+	width: 9.575rem;
+	height: 3.075rem;
+}
+.floor1-right-bottom{
+	width:9.6rem;
+	height: 4.575rem;
+}
+.floor2{
+	width: 16rem;
+	height: 11.625rem;
+}
+.floor2-main{
+	width: 16rem;
+	height: 10.075rem;
+}
+.floor2-left{
+	width: 6.425rem;
+	height: 10.075rem;
+}
+.floor2-right{
+	width: 9.575rem;
+	height: 10.075rem;
+}
+.floor2-right1,.floor2-right4,.floor2-right5{
+	width: 3.2rem;
+}
+.floor3-top-top{
+	width: 16rem;
+	height: 4.2rem;
+}
+.floor3-top-bottom{
+	width: 16rem;
+	height: 5.05rem;
+}
+.floor4{
+	width: 16rem;
+	height: 11.625rem;
+}
+.floor4-main{
+	width: 16rem;
+	height: 10.075rem;
+}
+.floor4-left{
+	width: 6.425rem;
+	height: 10.075rem;
+}
+.floor4-right{
+	width: 9.575rem;
+	height: 10.075rem;
+}
+.floor4-right1,.floor4-right5{
+	width: 3.2rem;
+}
+.floor4-right4{
+	width: 3.15rem;
+}
+.floor5-right4{
+	width: 3.15rem;
+}
+.floor6-right4{
+	width: 3.15rem;
+}
