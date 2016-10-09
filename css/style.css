@@ -758,6 +758,7 @@ body {
 	border-top:1px solid #bec2c4 ;
 	padding-top: 30px;
 	padding-bottom: 76px;
+	display: none;
 }
 .footcon{
 	width: 1000px;
