@@ -10,5 +10,5 @@
 */
 
 var theme = {
-	theme:"red"
+	theme:"black"
 }
