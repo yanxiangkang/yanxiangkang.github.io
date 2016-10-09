@@ -14,13 +14,13 @@
 
 var projects = [
 		{
-			projectName:"整屏切换+动画制作“TweenMax库”",
-			projectWebsite:"http://2013.miaov.com/miaov_demo/diagnosite/",
+			projectName:"1号店-全站制作",
+			projectWebsite:"yanxiangkang.github.io/quanzhan",
 		    startTime:"2016.01.01",
 			endTime:"至今",
-			projectExplain:"JS整站开发之：整屏切换+动画制作神器“TweenMax库” 导航条和首屏出场动画、3D翻转实现、整屏切换，页面动画计算滚动条滚动距离， 拖动滚动条触发页面动画，完善每一屏内的图片翻转，缩小浏览器，做布局转换。",
-			projectLabel:["html","css3","css","js"],
-			projectThumbnail:"images/icon/1.png"
+			projectExplain:"JS整站开发之：1号店首页制作-静态页面的首页展示",
+			projectLabel:["html","css"],
+			projectThumbnail:"quanzhan/img/floor2-2.jpg"
 		},
 		{
 			projectName:"妙味VIP会员感恩墙",
