@@ -1,0 +1,72 @@
+#container{padding: 0 60px; height: auto;width: 1246px;}
+#header{height: 52px;padding: 24px 0;}
+#header #logo{width:135px;height: 48px;margin-right: 50px;margin-top: 2px;display: block;float: left;}
+#header #logo img{float: left;}
+#header ul{padding-top: 10px;}
+#header ul li{padding: 0 50px;width:auto;height: 30px;border-right: 1px solid #e5e5e5;float: left;}
+#header ul li a{color: bisque;font-size: 20px;}
+#header ul li p{font-size: 12px;font-family: cursive;}
+#viewport{
+	width: 1246px;
+	overflow: hidden;
+}
+#viewport .list{
+	width: 100%;
+	height:502px;
+	float: left;
+}
+#viewport .list li{
+	width: 1246px;
+	height:502px;
+	float: left;
+}
+#viewport .list img{
+	width: 100%;
+	height: 502px;
+}
+.content{
+	width: 100%;
+	margin-top: 50px;
+	height: 380px;
+}
+.content .title a{
+	display: inline-block;
+	width: 60px;
+	line-height: 38px;
+	color: #000;
+	opacity: .5;
+	font-size: 14px;
+	margin-right: 20px;
+	margin-top: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.picture{
+	width: 100%;
+	height: 200px;
+	margin-top: 40px;
+}
+.picture li{
+	float: left;
+	width: 310px;
+	height: 200px;
+	margin-right: 1px;
+}
+.picture li img{
+	width: 100%;
+	height: 100%;
+}
+.picture .wedding{
+	margin-top: 30px;
+	width: 310px;
+	text-align: center;
+}
+.picture .wedding p{
+	font-size: 14px;
+	line-height: 30px;
+}
+.picture .wedding span{
+	display: inline-block;
+	color: #ccc;
+	line-height: 20px;
+	font-size: 12px;
+}

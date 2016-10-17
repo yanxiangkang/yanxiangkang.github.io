@@ -30,5 +30,14 @@ var projects = [
 			projectExplain:"用户观看的主页面，其大部分内容是通过html和css加载的。通过HTML和css的布局结构完成了jquery首页的响应式的制作",
 			projectLabel:["html","css"],
 			projectThumbnail:"xiangyingshi/img/contentText_resource_imglink.jpg"
+		},
+		{
+			projectName:"淘宝网站-移动端制作",
+			projectWebsite:"yanxiangkang.github.io/yidongduan",
+		    startTime:"2016.01.01",
+			endTime:"至今",
+			projectExplain:"用户观看的主页面，其大部分内容是通过html和css加载的。通过HTML和css的布局结构完成了jquery首页的响应式的制作",
+			projectLabel:["html","css"],
+			projectThumbnail:"xiangyingshi/img/chuchuang-7.jpg"
 		}
 ]
