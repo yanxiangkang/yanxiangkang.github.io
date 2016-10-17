@@ -14,8 +14,8 @@
 
 var projects = [
 		{
-			projectName:"汇爱婚礼网站制作",
-			projectWebsite:"yanxiangkang.github.io/yidongduan",
+			projectName:"汇爱婚礼-网站制作",
+			projectWebsite:"yanxiangkang.github.io/zuopin1",
 		    startTime:"2016.01.01",
 			endTime:"至今",
 			projectExplain:"汇爱婚礼网站的制作主要运用了HTML和css制作完成，页面的动态效果运用的是JavaScript编写而成。整个页面的效果给人以一种美的视角展现出来。",
@@ -39,5 +39,5 @@ var projects = [
 			projectExplain:"用户观看的主页面，其大部分内容是通过html和css加载的。通过HTML和css的布局结构完成了jquery首页的响应式的制作",
 			projectLabel:["html","css"],
 			projectThumbnail:"xiangyingshi/img/contentText_resource_imglink.jpg"
-		}
+		}	
 ]
