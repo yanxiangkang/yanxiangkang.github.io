@@ -24,20 +24,29 @@ var projects = [
 		},
 		{
 			projectName:"1号店-全站制作",
-			projectWebsite:"yanxiangkang.github.io/quanzhan",
+			projectWebsite:"yanxiangkang.github.io/zuopin2",
 		    startTime:"2016.01.01",
 			endTime:"至今",
 			projectExplain:"JS整站开发之：1号店首页制作-静态页面的首页展示",
 			projectLabel:["html","css"],
-			projectThumbnail:"quanzhan/img/floor2-2.jpg"
+			projectThumbnail:"zuopin2/img/floor2-2.jpg"
 		},
 		{
 			projectName:"jquery-响应式",
-			projectWebsite:"yanxiangkang.github.io/xiangyingshi",
+			projectWebsite:"yanxiangkang.github.io/zuopin3",
 		    startTime:"2016.01.01",
 			endTime:"至今",
 			projectExplain:"用户观看的主页面，其大部分内容是通过html和css加载的。通过HTML和css的布局结构完成了jquery首页的响应式的制作",
 			projectLabel:["html","css"],
-			projectThumbnail:"xiangyingshi/img/contentText_resource_imglink.jpg"
-		}	
+			projectThumbnail:"zuopin3/img/contentText_resource_imglink.jpg"
+		},
+		{
+			projectName:"淘宝网站-移动端",
+			projectWebsite:"yanxiangkang.github.io/zuopin4",
+		    startTime:"2016.01.01",
+			endTime:"至今",
+			projectExplain:"淘宝移动端的页面制作主要运用到的是html和css,通过页面的制作可以实现在Android下的实现等。",
+			projectLabel:["html","css"],
+			projectThumbnail:"zuopin4/img/firstscreen.jpg"
+		}
 ]
