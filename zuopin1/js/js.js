@@ -312,4 +312,28 @@ function mScroll(obj,upper,down){
 				$(".right_wrap>span").css({
 						opacity:0
 					})
+			});
+			
+			$(".left_dot").click(function(){
+				var left = parseFloat($(".about_box").css('left'));
+				//先把大框的LEFT值获取到。
+				var ele = $(".about_box")[0];
+				var l = left + 1096;
+				mTween(ele,'left',l,800,'linear',function(){
+					if(l==0){
+						ele.style.left = -2192+'px';
+					}
+				});
+			})
+			
+			$(".right_dot").click(function(){
+				var left = parseFloat($(".about_box").css('left'));
+				var ele = $(".about_box")[0];
+				var l = left - 1096;
+				mTween(ele,'left',l,800,'linear',function(){
+					if(l==-3288){
+						console.log(1);
+						ele.style.left = -1096+'px';
+					}
+				});
 			})
